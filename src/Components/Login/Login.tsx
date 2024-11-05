@@ -2,6 +2,7 @@ import { FaLock, FaUser } from "react-icons/fa";
 
 import "./Login.css";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Login = () => {
 
@@ -47,7 +48,7 @@ const Login = () => {
                 <button>Entrar</button>
 
                 <div className="signup-link">
-                    <p>Não tem uma conta? <a href="">Registre-se</a></p>
+                    <p>Não tem uma conta? <Link to="/register">Registre-se</Link></p>
                 </div>
             </form>
         </div>
