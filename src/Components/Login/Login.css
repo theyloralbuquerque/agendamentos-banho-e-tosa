@@ -44,28 +44,28 @@
     color: #fff;
 }
 
-.container .recall-forget {
+.container .lembre-de-mim {
     display: flex;
     justify-content: space-between;
     font-size: 14.5px;
     margin: -15px 0 15px;
 }
 
-.recall-forget label {
+.lembre-de-mim label {
     color: #fff;
 }
 
-.recall-forget input {
+.lembre-de-mim input {
     margin-right: 5px;
 }
 
-.recall-forget a, 
+.lembre-de-mim a, 
 .signup-link p a {
     color: #fff;
     text-decoration: none;
 }
 
-.recall-forget a:hover, 
+.lembre-de-mim a:hover, 
 .signup-link p a {
     text-decoration: underline;
 }
